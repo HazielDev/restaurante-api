@@ -1,0 +1,13 @@
+name: Build & Test NodeJS app
+
+on:
+    push:
+        branches:
+           - main
+jobs:
+    build-test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Saludando
+              run: echo "Hola a todos"
+            
